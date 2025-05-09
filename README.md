@@ -40,11 +40,7 @@ CREATE DATABASE soundscape;
 CREATE EXTENSION IF NOT EXISTS timescaledb CASCADE;
 ```
 
-3. Run the setup script to create the necessary tables:
-
-```bash
-python setup_db.py --db-host localhost --db-port 5432 --db-name soundscape --db-user postgres --db-password yourpassword
-```
+3. The first run of the script will automatically create the necessary tables. 
 
 ## Usage
 
